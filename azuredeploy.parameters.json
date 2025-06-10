@@ -1,0 +1,63 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "subscriptionId": {
+            "value": "f7714864-7cad-4c8b-919b-dd2917359729"
+        },
+        "location": {
+            "value": "eastus2"
+        },
+        "environmentName": {
+            "value": "fromarmtemplate"
+        },
+        "projectPrefix": {
+            "value": "willbyron"
+        },
+        "vnetName": {
+            "value": "vnet-willbyron-foundry"
+        },
+        "vnetAddressPrefix": {
+            "value": "10.0.0.0/16"
+        },
+        "subnetName": {
+            "value": "subnet-foundry"
+        },
+        "subnetAddressPrefix": {
+            "value": "10.0.1.0/24"
+        },
+        "storageAccountName": {
+            "value": "stwillbyronarmtemplate"
+        },
+        "storageAccountSku": {
+            "value": "Standard_LRS"
+        },
+        "aiResourceName": {
+            "value": "ais-willbyron-fromarmtemplate"
+        },
+        "aiServicesSku": {
+            "value": "S0"
+        },
+        "projectName": {
+            "value": "project-willbyron-fromarmtemplate"
+        },
+        "userPrincipalId": {
+            "value": "dfd8fd6b-af4c-4176-b958-5d96bc54d7f9"
+        },
+        "enablePrivateEndpoints": {
+            "value": true
+        },
+        "enablePublicNetworkAccess": {
+            "value": false
+        },
+        "tags": {
+            "value": {
+                "Environment": "Lab",
+                "Project": "Azure AI Foundry ARM Template",
+                "DeploymentMethod": "ARM Template",
+                "Owner": "Will Byron",
+                "CreatedDate": "2025-06-10"
+            }
+        }
+    }
+}
